@@ -1,0 +1,200 @@
+.hero {
+    background-image: url(../img/HeaderBackground.png);
+    background-size: cover;
+    background-position: center;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.title {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.title-icon {
+    font-family: "Aleo";
+    font-size: 36px;
+    color: #ffffff;
+}
+.pseгdo-title {
+    padding-bottom: 48px;
+}
+
+.arrow-down {
+    margin-bottom: 120px;
+}
+.conteiner-icon {
+    background-color: #333333;
+}
+.conteiner-blog {
+    background: url("/img/fon-city.png");
+    background-size: cover;
+    background-position: center;
+}
+.blog-house {
+    background-image: url(../img/fon-haus.png);
+    background-size: cover;
+    background-position: center;
+}
+.blog-sea {
+    background-image: url(../img/fon-more.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.finish-blog {
+    background-color: #333333;
+}
+
+.btn-search {
+    background-color: #5373fd;
+    min-width: 139px;
+    height: 52px;
+    font-family: "Aleo";
+    font-size: 14px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.blog-search {
+    width: 100%;
+    background: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 211px;
+    padding: 5px;
+}
+.search-text {
+    font-family: "Josefin Sans";
+    font-size: 14px;
+    color: #999999;
+    padding: 15px 30px;
+    border: none;
+    width: 100%;
+    outline: none;
+    height: 100%;
+}
+
+.arrow-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.btn {
+    font-family: "Aleo";
+    font-size: 16px;
+    color: #ffffff;
+    min-width: 213px;
+    height: 60px;
+    background: #5373fd;
+}
+.blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .holder-img {
+        display: flex;
+        padding-top: 60px;
+        .img-foto {
+            padding-right: 24px;
+        }
+    }
+    .blog-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .button {
+        margin-bottom: 60px;
+    }
+}
+.line {
+    display: none;
+}
+.blog-icon {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+    .icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0;
+    }
+}
+.blog-house,
+.blog-sea {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    .hause-text,
+    .sea-text {
+        display: flex;
+        flex-direction: column;
+        background: rgba(35, 35, 35, 0.9);
+
+        padding-left: 32px;
+        .btn {
+            margin-bottom: 44px;
+        }
+        .psevldo-title-house,
+        .psevdo-title-sea {
+            padding-top: 44px;
+            font-family: "Josefin Sans";
+            font-weight: 300;
+            font-size: 20px;
+            color: #ffffff;
+        }
+        .title-house,
+        .title-sea {
+            margin-top: 16px;
+            margin-bottom: 16px;
+            font-family: "Josefin Sans";
+            font-size: 20px;
+            color: #ffffff;
+        }
+    }
+}
+.finish-conteiner {
+    background-image: url(../img/fon-men.png);
+    background-size: cover;
+    background-position: center;
+    padding-left: 18px;
+    padding-right: 18px;
+
+    padding-bottom: 120px;
+    .title-finish-conteiner {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 60px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 60px;
+    }
+    .finish-blog {
+        display: flex;
+        flex-direction: column;
+        .finish-img {
+            height: 336px;
+            width: 100%;
+            background-image: url(../img/litle-foto/ReviewPhoto.png);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .finish-blog-text {
+            margin-left: 60px;
+            margin-right: 60px;
+            margin-bottom: 48px;
+        }
+    }
+}
